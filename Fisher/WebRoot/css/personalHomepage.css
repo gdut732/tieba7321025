@@ -1,0 +1,379 @@
+@CHARSET "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-size: 15px;
+	color: rgb(74, 79, 109);
+}
+
+body {
+	margin: 0 auto;
+	width: 1024px;
+	height: 868px;
+	background: whitesmoke;
+}
+.newmsgnum{
+	color: red;
+}
+
+a {
+	cursor: pointer;
+}
+
+li {
+	cursor: pointer;
+	list-style-type: none;
+}
+
+hr {
+	border: none;
+	height: 3px;
+	border-top: 1px solid rgb(159, 211, 233);
+}
+
+#head {
+	width: 1024px;
+	height: 100px;
+}
+
+#head #headinner {
+	width: 1024px;
+	height: 25%;
+}
+
+#headinner #headnavi {
+	width: 500px;
+	height: 100%;
+	float: right;
+}
+
+#headnavi .naviItem {
+	margin: 0 0 0 0px;
+	line-height: 23px;
+	text-align: center;
+	width: 115px;
+	height: 25px;
+	float: right;
+}
+
+#head .headline {
+	border: none;
+	height: 3px;
+	border-top: 3px solid rgb(159, 211, 233);
+}
+
+#head #headsearch {
+	width: 1024px;
+	height: 75%;
+}
+
+#headsearch #searchmod {
+	margin: 20px 0 0 0;
+	font-size: 0;
+	width: 349px;
+	height: 29px;
+	background: rgb(159, 211, 233);
+}
+
+#headsearch #searchtext {
+	margin: 2px 0 0 0;
+	border: 0px;
+	width: 285px;
+	height: 25px;
+}
+
+#headsearch #searchbt {
+	margin: 0;
+	padding: 0;
+	border: 0px;
+	width: 60px;
+	height: 28px;
+	background: rgb(159, 211, 233);
+}
+
+#body {
+	width: 1024px;
+	height: 718px;
+}
+
+#body #userinfo {
+	width: 100%;
+	height: 30%;
+}
+
+#userinfo #userinfohead {
+	width: 25%;
+	height: 100%;
+	float: left;
+	/*background: rgb(159,211,233);*/
+}
+
+#userinfo #headimg {
+	margin: 32px 0 0 45px;
+	border-radius: 4px;
+	height: 150px;
+	width: 150px;
+	border: 3px solid rgb(74, 79, 109);
+}
+
+#headimg img {
+	border-radius: 4px;
+	height: 150px;
+	width: 150px;
+}
+
+#userinfo #userinfom {
+	width: 75%;
+	height: 100%;
+	float: right;
+	/*background: rgb(159,211,233);*/
+}
+
+#userinfom #changeinfo {
+	line-height: 50px;
+	margin: 50px 0 0 0;
+}
+
+#changeinfo input {
+	border: 2px solid rgb(159, 211, 233);
+	border-radius: 4px;
+	font-size: 15px;
+	font-family: "微软雅黑";
+	color: rgb(74, 79, 109);
+}
+
+#userinfom #uname {
+	line-height: 45px;
+	font-size: 20px;
+}
+
+#otherinfo .userinfo_split {
+	border-color: #ccc;
+	border-style: solid;
+	border-width: 0 0 0 2px;
+	display: inline-block;
+	height: 10px;
+	line-height: 10px;
+	margin: 0 10px 2px 9px;
+	vertical-align: middle;
+}
+
+#body #usercontent {
+	width: 100%;
+	height: 70%;
+	/*background: rgb(74,79,109);*/
+}
+
+#usercontent #uleft {
+	width: 60%;
+	height: 100%;
+	float: left;
+}
+
+#uleft #navi_item {
+	width: 100%;
+	height: 32px;
+}
+
+#navi_item li {
+	float: left;
+	width: 20%;
+	height: 29.5px;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: center;
+	border-bottom: 1px solid rgb(74, 79, 109);
+}
+
+#navi_content .navi_content {
+	width: 100%;
+	height: 470px;
+}
+
+#myindextop {
+	width: 100%;
+	height: 49%;
+	border-bottom: 2px dashed rgb(159, 211, 233);
+}
+
+#myindexbottom {
+	width: 100%;
+	height: 50%;
+}
+
+#myindexbottom p {
+	text-align: center;
+	line-height: 40px;
+}
+
+#myindexbottom textarea {
+	margin: 1px 0 0 150px;
+	border-radius: 4px;
+	border: 3px solid rgb(159, 211, 233);
+}
+
+#signsure {
+	margin: 4px 0 0 275px;
+	width: 60px;
+	height: 30px;
+	border-radius: 4px;
+	border: 0;
+	background: rgb(159, 211, 233);
+}
+
+#imgsure {
+	margin: 4px 0 0 275px;
+	width: 60px;
+	height: 30px;
+	border-radius: 4px;
+	border: 0;
+	background: rgb(159, 211, 233);
+}
+
+#myfocusuV table {
+	width: 613px;
+	height: 360px;
+}
+
+#myfocusuV td {
+	width: 300px;
+	height: 120px;
+}
+
+#myfocuspV table {
+	width: 613px;
+	height: 360px;
+}
+
+#myfocuspV td {
+	width: 300px;
+	height: 120px;
+}
+
+.friend {
+	width: 40%;
+	height: 100%;
+	float: left;
+}
+
+.friend img {
+	width: 110px;
+	height: 110px;
+	margin: 5px 0 0 5px;
+	border: 1px solid rgb(74, 79, 109);
+	border-radius: 4px;
+}
+
+.ufname {
+	text-align: center;
+	line-height: 50px;
+}
+
+.usex {
+	text-align: center;
+	line-height: 12px;
+}
+
+.level {
+	text-align: center;
+	line-height: 12px;
+}
+
+.opera {
+	border: 0px;
+	background: rgb(159, 211, 233);
+	border-radius: 4px;
+	margin: 12px 0 0 50px;
+}
+
+#usercontent #uright {
+	width: 39%;
+	float: left;
+	height: 100%;
+	border: 4px solid rgb(159, 211, 233);
+}
+
+#uright #alarmhead {
+	line-height: 28px;
+	text-align: center;
+	font-size: 19px;
+	height: 25px;
+	border-bottom: 4px solid rgb(159, 211, 233);
+}
+
+#uright .alarm_navi {
+	text-align: center;
+	font-size: 18px;
+	border-top: 3px solid rgb(159, 211, 233);
+}
+
+#alarmnaviul div {
+	height: 380px;
+	overflow-y: scroll;
+	display: none;
+}
+
+#footer {
+	margin: 5px 0 0 0;
+	width: 1024px;
+	height: 50px;
+	/*background: rgb(74,79,109);*/
+}
+
+#footer p {
+	text-align: center;
+	line-height: 100px;
+	color: rgb(74, 79, 109);
+}
+
+.friendt {
+	width: 300px;
+	height: 140px;
+	float: left;
+}
+
+#feedback{
+	position: fixed;
+	_position: absolute;
+	top: 50%;
+	left: 50%;
+	border: 1px solid rgb(159, 211, 233); /*弹出框边框样式*/
+	background-color: whitesmoke; /*弹出框背景色*/
+	display: none;
+}
+#feedback #feedbackview{
+	width: 280px;
+	height: 200px;
+	border: 0px;
+	text-align: center;
+}
+#feedback #exitfee{
+	width: 100%;
+	height: 16px;
+	/*border: 1px solid rgb(159,211,233);*/
+}
+#feedback #feedbackexbt{
+	float: right;
+	border: 0px;
+	background: rgb(159, 211, 233);
+}
+#feedback table {
+	width: 250px;
+	height: 130px;
+	/*border: 1px solid rgb(159,211,233);*/
+	margin: 0 0 0 16px;
+}
+#feedback  #sure1 {
+	width: 100px;
+	height: 30px;
+	border: 0px;
+	background: rgb(159, 211, 233);
+}
+#feedback #cancel1 {
+	width: 100px;
+	height: 30px;
+	border: 0px;
+	background: rgb(159, 211, 233);
+}

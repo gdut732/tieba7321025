@@ -1,0 +1,218 @@
+@CHARSET "UTF-8";
+		*{
+			margin: 0;
+			padding: 0;
+			text-decoration: none;
+			color: rgb(74, 79, 109);
+		}
+		
+		body{
+				margin: 0 auto;
+				width: 1024px;
+				height: 868px;
+				background-color: aliceblue;
+		}
+		li {
+	list-style-type: none;
+}
+
+hr {
+	border: none;
+	height: 3px;
+	border-top: 1px solid rgb(159, 211, 233);
+}
+
+#header {
+	width: 1024px;
+	height: 100px;
+}
+
+#header #headinner {
+	width: 1024px;
+	height: 25%;
+}
+
+#headinner #headnavi {
+	width: 500px;
+	height: 100%;
+	float: right;
+}
+
+#headnavi .naviItem {
+	margin: 0 0 0 0px;
+	line-height: 23px;
+	text-align: center;
+	width: 115px;
+	height: 25px;
+	float: right;
+}
+/* -------------------------------------------------------------------------------------------- */
+#header .headline {
+	border: none;
+	height: 3px;
+	border-top: 3px solid rgb(159, 211, 233);
+}
+		#main{
+				width: 1024px;
+				height: 668px;
+				background-color: cadetblue;
+		}
+		#main #main_left{
+				width: 660px;
+				height: 668px;
+				margin-left: 60px;
+				background-color: blanchedalmond;
+		}
+		#main_left #phone_div{
+				display: none;
+		}
+		#main_left #select_span{
+			height: 40px;
+			width: 302px;
+			margin-left: 60px;
+			text-align: center;
+			font-weight: bolder;
+			line-height: 40px;
+		}
+		#main_left .little{
+			width: 400px;
+			height: 25px;
+			display: none;
+		}
+		#main_left #nameli{
+			width: 400px;
+			height: 30px;
+		}
+		#main_left #pwdli{
+			height: 6px;
+		}
+		#email_reg{
+				background-color: rgb(159,211,233);
+		}
+		#passStrength{height:6px;width:120px;border:1px solid #ccc;padding:2px;display: inline-block;}
+		.strengthLv1{background:red;height:6px;width:40px;}
+		.strengthLv2{background:orange;height:6px;width:80px;}
+		.strengthLv3{background:green;height:6px;width:120px;}
+			
+		.pass_item::after{
+				clear: both;
+			    content: " ";
+			    display: block;
+			    font-size: 0;
+			    height: 0;
+			    visibility: hidden;
+		}
+		.pass_item{
+			clear: both;
+			    margin-bottom: 20px;
+			    position: relative;
+		}
+		.pass_item span{
+				display: none;
+		}
+			
+		#footer{
+				width: 1024px;
+				height: 50px;
+				/* background-color: chartreuse; */
+		}
+		#footer p {
+			text-align: center;
+			line-height: 50px;
+			color: rgb(74, 79, 109);
+		}
+	
+/*这里是弹出登录的界面*/
+#div_Test #loginview {
+	width: 280px;
+	height: 180px;
+	border: 0px;
+	text-align: center;
+}
+
+#div_Test #exit {
+	width: 100%;
+	height: 16px;
+	/*border: 1px solid rgb(159,211,233);*/
+}
+
+#div_Test #exitbt {
+	float: right;
+	border: 0px;
+	background: rgb(159, 211, 233);
+}
+
+#div_Test table {
+	width: 250px;
+	height: 130px;
+	/*border: 1px solid rgb(159,211,233);*/
+	margin: 0 0 0 16px;
+}
+
+#div_Test  #sure {
+	width: 100px;
+	height: 30px;
+	border: 0px;
+	background: rgb(159, 211, 233);
+}
+
+#div_Test #cancel {
+	width: 100px;
+	height: 30px;
+	border: 0px;
+	background: rgb(159, 211, 233);
+}
+
+#div_Test {
+	position: fixed;
+	_position: absolute;
+	top: 50%;
+	left: 50%;
+	border: 1px solid rgb(159, 211, 233); /*弹出框边框样式*/
+	background-color: whitesmoke; /*弹出框背景色*/
+	display: none;
+}
+
+#feedback{
+	position: fixed;
+	_position: absolute;
+	top: 50%;
+	left: 50%;
+	border: 1px solid rgb(159, 211, 233); /*弹出框边框样式*/
+	background-color: whitesmoke; /*弹出框背景色*/
+	display: none;
+}
+#feedback #feedbackview{
+	width: 280px;
+	height: 200px;
+	border: 0px;
+	text-align: center;
+}
+#feedback #exitfee{
+	width: 100%;
+	height: 16px;
+	/*border: 1px solid rgb(159,211,233);*/
+}
+#feedback #feedbackexbt{
+	float: right;
+	border: 0px;
+	background: rgb(159, 211, 233);
+}
+#feedback table {
+	width: 250px;
+	height: 130px;
+	/*border: 1px solid rgb(159,211,233);*/
+	margin: 0 0 0 16px;
+}
+#feedback  #sure1 {
+	width: 100px;
+	height: 30px;
+	border: 0px;
+	background: rgb(159, 211, 233);
+}
+#feedback #cancel1 {
+	width: 100px;
+	height: 30px;
+	border: 0px;
+	background: rgb(159, 211, 233);
+}
